@@ -24,6 +24,7 @@ require (
 	github.com/golangci/unconvert v0.0.0-20180507085042-28b1c447d1f4
 	github.com/matoous/godox v0.0.0-20190911065817-5d6d842e92eb // v1.0
 	github.com/mattn/go-colorable v0.1.4
+	github.com/mdubbyap/tedo-lint v0.0.1
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/go-ps v0.0.0-20190716172923-621e5597135b
 	github.com/pkg/errors v0.8.1
@@ -40,7 +41,7 @@ require (
 	github.com/ultraware/whitespace v0.0.4
 	github.com/uudashr/gocognit v0.0.0-20190926065955-1655d0de0517
 	github.com/valyala/quicktemplate v1.2.0
-	golang.org/x/tools v0.0.0-20190930201159-7c411dea38b0
+	golang.org/x/tools v0.0.0-20200626171337-aa94e735be7f
 	gopkg.in/yaml.v2 v2.2.4
 	honnef.co/go/tools v0.0.1-2019.2.3
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed
