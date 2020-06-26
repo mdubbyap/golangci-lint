@@ -109,6 +109,10 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 			WithLoadForGoAnalysis().
 			WithPresets(linter.PresetUnused).
 			WithURL("https://github.com/opennota/check"),
+		linter.NewConfig(golinters.NewTedocheck()).
+			WithLoadForGoAnalysis().
+			WithPresets(linter.PresetUnused).
+			WithURL("https://github.com/mdubbyap/tedo-lint"),
 		linter.NewConfig(golinters.NewVarcheck()).
 			WithLoadForGoAnalysis().
 			WithPresets(linter.PresetUnused).
